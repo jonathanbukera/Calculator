@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family:monospace;
+}
+button{
+    height: 50px;
+    width: 50px;
+    flex: auto;
+    border: 1px solid black;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 295px;
+}
+#command{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+#result{
+    flex: auto;
+    text-align: right;
+    background-color: rgba(167, 167, 167, 0.481);
+    border: 3px solid black;
+    
+}
+.number{
+    background-color: aqua;
+}
+#point{
+    background-color: aqua;
+}
+#result{
+    font-size: 35px;
+}
+.row{
+    display: flex;
+}
+#lastRow{
+    display: flex;
+}
+.left,.right{
+    flex:1;
+    display: flex;
+}
+#divide,
+#multiply,
+#substract, 
+#add,
+#equale{
+    background-color: greenyellow;
+}
+#clear,
+#plusMinus,
+#pourcent{
+    background-color: rgb(250, 184, 62);
+}
